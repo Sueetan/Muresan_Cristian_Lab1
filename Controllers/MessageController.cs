@@ -14,7 +14,7 @@ namespace Muresan_Cristian_Lab1.Controllers
             return "Salut!";
         }
 
-        public string ShowValues(string firstValue, int secondValue)
+        public string ShowValues(string firstValue = "First", int secondValue = 2)
         {
             return $"Here are some values {firstValue} and {secondValue}";
         }
